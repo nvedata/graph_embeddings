@@ -1,0 +1,6 @@
+[tool.pyright]
+reportAttributeAccessIssue = "none"
+reportOperatorIssue = "none"
+
+[tool.pytest.ini_options]
+pythonpath = "src/"
