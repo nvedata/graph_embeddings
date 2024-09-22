@@ -1,4 +1,9 @@
-from pyomo.environ import SolverFactory
+from pyomo.contrib.appsi.solvers import Highs
+import highspy
 
 def test_highs():
-    assert SolverFactory('highs').available()
+    solver = Highs()
+    assert solver.available()
+
+def test_pyhighs():
+    h = highspy.Highs()
