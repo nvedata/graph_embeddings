@@ -1,5 +1,7 @@
 [tool.pyright]
+reportArgumentType = "none"
 reportAttributeAccessIssue = "none"
+reportCallIssue = "none"
 reportOperatorIssue = "none"
 
 [tool.pytest.ini_options]
